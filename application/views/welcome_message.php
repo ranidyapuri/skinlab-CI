@@ -68,21 +68,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Welcome to SKINLAB!</h1>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+	<div class="card">
+		<div class="card-body">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti, modi similique aut cumque expedita eaque quo deleniti distinctio velit ut et libero doloribus nihil voluptatibus nobis quidem beatae vitae?
+			Ipsam modi earum harum blanditiis! Error iure, mollitia doloribus rem nostrum cum dicta totam non a quod quasi, tempora suscipit magnam quis accusantium voluptatum id iusto possimus ad laboriosam quae.
+			Deleniti exercitationem tempore dolore at saepe dolorem fuga, similique quae voluptatibus, ducimus maiores dignissimos unde? Reiciendis, quae dolorem quisquam quod quis nihil voluptatum ullam obcaecati consequuntur animi veritatis, atque nemo!
+			In qui ducimus illo, numquam quam labore unde maxime deleniti vero quidem expedita a voluptatum illum suscipit dolorum enim alias rem similique neque dignissimos impedit perspiciatis eligendi voluptatibus. Similique, pariatur!
+			Dolor nobis aut consequatur iste eum nihil dolorum deleniti cupiditate doloribus vel libero tempore officiis itaque, inventore, sapiente impedit autem eligendi voluptate odit mollitia. Debitis animi amet quia cum rem.
+			Ipsa accusamus rem cupiditate beatae nulla. Numquam quidem porro aliquid temporibus cumque minima autem asperiores voluptas iste, distinctio officia nobis officiis, voluptates, sint architecto! Voluptatem accusantium culpa similique quam eaque?
+			Repellat dolor pariatur perferendis qui aspernatur exercitationem, corporis earum sequi officia, molestias quam sapiente explicabo odio cupiditate aliquam neque ipsa accusantium blanditiis beatae quia. Animi itaque praesentium dignissimos sed odio!
+			Ipsa fugit adipisci perspiciatis id repellendus commodi. Laudantium quidem aut nihil ipsam ut, quae enim voluptatibus soluta, labore blanditiis earum maiores! Facilis iure illo in laudantium quam rem impedit dolorem.
+			Laboriosam exercitationem saepe aliquam cupiditate, officia nam impedit dolorum harum neque assumenda, ullam nobis quidem mollitia culpa enim totam laborum id veritatis repellendus placeat consequuntur quo quaerat eaque delectus. Cum.
+			Laborum facere modi eos quidem veritatis eveniet fugiat placeat dolores deleniti, autem voluptatum esse sunt velit accusamus, commodi tempora voluptates obcaecati voluptatibus odit quisquam quam pariatur consectetur. Et, quisquam consequuntur.</p>
+		</div>
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
 </body>
