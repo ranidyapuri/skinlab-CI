@@ -1,0 +1,19 @@
+.own-bg{
+    background-color: #919270;
+}
+.btn-primary{
+    background-color: #919270 !important;
+    color: white;
+}
+.fa-bell, .fa-envelope{
+    color: #cbccb9;
+}
+.fa-bell:hover, .fa-envelope:hover{
+    color: #9b9c81;
+}
+.dropdown .fa-user{
+    color: #cbccb9;
+}
+#content{
+    background-color: #F8F5ED;
+}
