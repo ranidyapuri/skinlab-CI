@@ -1,4 +1,3 @@
-
         <!-- Sidebar -->
         <ul class="navbar-nav own-bg sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -19,11 +18,10 @@
             
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('')?>Admin/Page/">
+                <a class="nav-link" href="<?= base_url('')?>Admin/Page">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
-
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('')?>Admin/Page/barang">
