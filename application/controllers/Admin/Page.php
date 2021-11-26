@@ -10,14 +10,27 @@ class Page extends CI_Controller{
     }
     public function index()
     {
-        $this->load->view('Admin/index');
-
+        $data['title'] = 'Admin';
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $this->load->view('template/head', $data);
+        $this->load->view('template/sidebar', $data);
+        $this->load->view('template/navbar', $data);
+        $this->load->view('Admin/index', $data);
+        $this->load->view('template/foot');
     }
+
     public function barang()
     {
         $data['barang'] = $this->M_barang->select_all();
+        $data['title'] = 'Admin';
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $this->load->view('template/head', $data);
+        $this->load->view('template/sidebar', $data);
+        $this->load->view('template/navbar', $data);
         $this->load->view('Admin/barang', $data);
+        $this->load->view('template/foot');
     }
+
     public function tambahBarang()
     {
         $dataBarang = $this->input->post();
