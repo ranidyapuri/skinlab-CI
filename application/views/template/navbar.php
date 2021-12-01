@@ -14,13 +14,30 @@
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-shopping-cart"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">0</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Shopping cart
+                                </h6>
 
+                                <div class="cart-list">
+                                </div>
+                                
+                                <center><a href="<?= base_url('')?>index.php/Shop/Page/checkout" class="btn btn-sm btn-outline-primary mt-3 mb-3 text-center">Checkout</a></center>
+                            </div>
+                        </li>
                         <div class="topbar-divider d-none d-sm-block"></div>
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['nama']; ?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['nama']; ?> tes</span>
                                 <img class="img-profile rounded-circle"
                                     src="<?= base_url('admin_assets/img/profile/').$user['foto'];?>">
                             </a>

@@ -9,7 +9,12 @@
                 </div>
                 <div class="sidebar-brand-text mx-3">Skin Lab</div>
             </a>
-
+            <hr class="sidebar-divider">
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url('')?>Shop/Page/">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Shop</span></a>
+            </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
 

@@ -12,10 +12,14 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider">
-
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url('')?>Shop/Page/">
+                <i class="fas fa-store"></i>
+                <span>Shop</span></a>
+            </li>
             <!-- Heading -->
             <div class="sidebar-heading">
-                User
+                User tesset
             </div>
             
             <!-- Nav Item  -->
