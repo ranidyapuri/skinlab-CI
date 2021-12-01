@@ -6,14 +6,18 @@ class Page extends CI_Controller{
         parent::__construct();
         $this->load->model('CRUD');
         $this->load->model('Admin/M_barang');
+        $this->load->model('Admin/M_user');
         
     }
     public function index()
     {
         $data['title'] = 'Admin';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $data['jumlah'] = $this->M_barang->jumlahBarang();
+        $data['data_user'] = $this->M_user->getAllUser();
+        
         $this->load->view('template/head', $data);
-        $this->load->view('template/sidebar', $data);
+        $this->load->view('Admin/_partials/sidebar', $data);
         $this->load->view('template/navbar', $data);
         $this->load->view('Admin/index', $data);
         $this->load->view('template/foot');
@@ -22,10 +26,10 @@ class Page extends CI_Controller{
     public function barang()
     {
         $data['barang'] = $this->M_barang->select_all();
-        $data['title'] = 'Admin';
+        $data['title'] = 'Produk Saya';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $this->load->view('template/head', $data);
-        $this->load->view('template/sidebar', $data);
+        $this->load->view('Admin/_partials/sidebar', $data);
         $this->load->view('template/navbar', $data);
         $this->load->view('Admin/barang', $data);
         $this->load->view('template/foot');
@@ -35,7 +39,6 @@ class Page extends CI_Controller{
     {
         $dataBarang = $this->input->post();
         
-
         $location = 'admin_assets/FotoBarang/';
         for ($i=1; $i<3; $i++){
             $file_name = $_FILES['foto'.$i]['name'];

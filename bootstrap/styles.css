@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(bootstrap/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'DM Serif';
+    src: url(bootstrap/DMSerifDisplay-Regular.ttf);
+}
+#main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+body, nav{
+    background-color: #F8F5ED;
+    color: #2C3025;
+}
+.navbar-nav{
+    margin-left: auto;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.nav-item{
+    margin-right: 26px;
+}
+.btn{
+    width: 133px;
+    height: 40px;
+    background-color: #919270;
+    border-radius: 10px;
+    color: white;
+}
+#landing-page .btn{
+    width: 179px;
+    height: 50px;
+    padding: 40px, 10px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#landing-page{
+    margin-top: 150px;
+}
+#landing-page .title{
+    margin-top: 80px;
+}
+.home-image{
+    margin-left: 80px;
+}
+#landing-page p{
+    font-size: 24px;
+}
+.title h1{
+    width: 445px;
+    font-size: 48px;
+    font-family: 'DM Serif';
+    margin-bottom: 32px;
+}
+.title p{
+    width: 494px;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: 500;
+}
+.harga{
+    font-size: 18px;
+}
+.product-title{
+    margin-bottom: 20px;
+}
+.featured-product{
+    font-family: 'DM Serif';
+    font-size: 36px;
+}
+.view-all{
+    color: #2C3025;
+    font-size: 20px;
+    margin-left: auto !important;
+}
+.view-all:hover{
+    color: #919270;
+}
+#product{
+    margin-bottom: 80px;
+}
+.footer-image{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.contact-link{
+    margin-top: 10px;
+    margin-right: 15px;
+    color: #2C3025;
+    font-size: 30px;
+    float: left;
+}
+.contact-link:hover{
+    color: #919270;
+}
+.footer-bawah{
+    background-color: #919270;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}

@@ -27,6 +27,7 @@
         
     <!-- css sendiri -->
     <link rel="stylesheet" href="<?= base_url('')?>admin_assets/own_style/styleku.css">
+    <link rel="stylesheet" href="<?= base_url('')?>admin_assets/own_style/style_shop.css">
 
 </head>
 

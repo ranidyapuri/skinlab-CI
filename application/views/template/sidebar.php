@@ -19,13 +19,13 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('')?>Admin/Page">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <i class="fas fa-fw fa-store-alt"></i>
+                    <span>My Store</span></a>
             </li>
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('')?>Admin/Page/barang">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-box-open"></i>
                     <span>My Product</span></a>
             </li>
 

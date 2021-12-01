@@ -20,4 +20,13 @@ class M_barang extends CI_Model{
         $this->db->where($where);
         $this->db->delete($table);
     }
+    public function jumlahBarang()
+    {   
+        $query = $this->db->get('barang');
+        if($query->num_rows() > 0){
+            return $query->num_rows();
+        }else{
+            return 0;
+        }
+    }
 }

@@ -21,6 +21,9 @@
                         <div class="row">
                             <div class="col-lg">
                                 <div class="p-5">
+                                    <div class="text-center mb-4">
+                                        <img src="<?= base_url('')?>admin_assets/img/skinlab.png" width="120px">
+                                    </div>
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Login to your account</h1>
                                     </div>
@@ -40,12 +43,8 @@
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
-                                        <hr>
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                    </div>
                                     <div class="text-center">
                                         <a class="small" href="<?= base_url('')?>index.php/Login/Auth/register">Don't have any account? Sign up</a>
                                     </div>

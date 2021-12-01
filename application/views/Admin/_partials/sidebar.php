@@ -1,9 +1,8 @@
-
         <!-- Sidebar -->
         <ul class="navbar-nav own-bg sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src="<?= base_url('')?>admin_assets/img/sidebar-icon.png" width="50px">
                 </div>
@@ -19,31 +18,15 @@
             
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('')?>Admin/Page/">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                <a class="nav-link" href="<?= base_url('')?>Admin/Page">
+                    <i class="fas fa-fw fa-store-alt"></i>
+                    <span>My Store</span></a>
             </li>
-
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('')?>Admin/Page/barang">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-box-open"></i>
                     <span>My Product</span></a>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                User
-            </div>
-            
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>Profile</span></a>
             </li>
 
             <!-- Divider -->
