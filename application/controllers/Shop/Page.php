@@ -28,7 +28,7 @@ class Page extends CI_Controller{
         $this->load->view('template/head', $data);
         $this->load->view('User/_partials/sidebar', $data);
         $this->load->view('template/navbar', $data);
-        $this->load->view('Shop/index', $data);
+        $this->load->view('Shop/checkout', $data);
         $this->load->view('template/foot');
     }
 }

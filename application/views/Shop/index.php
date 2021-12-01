@@ -10,7 +10,7 @@
                                     <p class="card-text barang-text"><?= $b->keterangan; ?></p>
                                     <p class="card-text harga-barang text-dark">
                                         Rp<?= number_format($b->harga); ?>
-                                        <small class="float-right">Stock : <?= $b->stok; ?></small>
+                                        <small class="float-right mt-1">Stock : <?= $b->stok; ?></small>
                                     </p>
                                     <div class="number-input">
                                         <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>

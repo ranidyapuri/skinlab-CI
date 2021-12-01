@@ -4,8 +4,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('')?>Shop/Page/">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <img src="<?= base_url('')?>admin_assets/img/sidebar-icon.png" width="50px">
+                <div class="sidebar-brand-icon">
+                    <img src="<?= base_url('')?>admin_assets/img/skinlab-1.png" width="50px">
                 </div>
                 <div class="sidebar-brand-text mx-3">Skin Lab</div>
             </a>

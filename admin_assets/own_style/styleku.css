@@ -7,8 +7,8 @@
     color: white;
 }
 .btn-primary:hover{
-    background-color: #4b4b48 !important;
-    border-color: #4b4b48;
+    background-color: #777959 !important;
+    border-color: #777959;
 }
 .btn-outline-primary{
     background-color: white !important;
@@ -19,12 +19,6 @@
     background-color: #919270 !important;
     border-color: #919270;
     border-color: white;
-}
-.fa-bell, .fa-envelope{
-    color: #cbccb9;
-}
-.fa-bell:hover, .fa-envelope:hover{
-    color: #9b9c81;
 }
 .dropdown .fa-user{
     color: #cbccb9;

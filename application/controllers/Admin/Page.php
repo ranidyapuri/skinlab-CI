@@ -18,7 +18,7 @@ class Page extends CI_Controller{
         
         $this->load->view('template/head', $data);
         $this->load->view('Admin/_partials/sidebar', $data);
-        $this->load->view('template/navbar', $data);
+        $this->load->view('Admin/_partials/navbar', $data);
         $this->load->view('Admin/index', $data);
         $this->load->view('template/foot');
     }
@@ -30,7 +30,7 @@ class Page extends CI_Controller{
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $this->load->view('template/head', $data);
         $this->load->view('Admin/_partials/sidebar', $data);
-        $this->load->view('template/navbar', $data);
+        $this->load->view('Admin/_partials/navbar', $data);
         $this->load->view('Admin/barang', $data);
         $this->load->view('template/foot');
     }
